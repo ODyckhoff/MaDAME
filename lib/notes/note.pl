@@ -5,11 +5,8 @@
 use strict;
 use warnings;
 
-use Getopt::Long;
-
 our(@note_array, @white, @black, $result, $note_no, $octave);
-# $result = GetOptions ("length=i" => \$note_no);
-$note_no = shift;
+$note_no = shift; # Read parameter from command line. e.g. '~$ perl note.pl 8', where 8 is the note number you wish to query.
 
 @note_array = (['A', 'Gss', 'Bbb'], ['As', 'Bb'], ['B', 'Ass'], ['C', 'Dbb'], ['Cs', 'Db'], ['D', 'Css', 'Ebb'], ['Ds', 'Eb'], ['E', 'Dss'], ['F', 'Gbb'], ['Fs', 'Gb'], ['G', 'Fss', 'Abb'], ['Gs', 'Ab']);
 

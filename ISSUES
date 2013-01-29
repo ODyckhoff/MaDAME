@@ -1,0 +1,11 @@
+ISSUES/BUGS
+============
+
+* Current design requires 2 plugin handlers. Why
+   not 1? Abstraction.
+* Genre Modifications client side? Is there any 
+   point having plugins on server? In this case,
+   why does server exist?
+      - But then what do we allow client side?
+      - More stringent requirements need to be
+         resolved.

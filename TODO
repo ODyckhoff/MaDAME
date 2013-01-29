@@ -1,0 +1,21 @@
+TODO
+=====
+
+GLOBAL
+* Configuration file and handler
+* Library tools for notes, chords etc.
+
+MUSDAT
+* Plugin Handler
+* Plugin Parser
+* Unit tests
+* Data Retrieval
+
+MELGEN
+* Feature extraction
+* Basic melody generation
+* Genre modification
+* Unit Tests
+* Integration
+* Further features
+
