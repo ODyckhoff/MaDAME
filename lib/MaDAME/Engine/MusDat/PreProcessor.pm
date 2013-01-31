@@ -31,16 +31,26 @@ sub sort_type {
 
     my $subref = $type;
     my $sub    = \&$subref;
-    &$sub( $data ) ; #die ( "Error: Incorrect Data Type '$1'.\n" );
+    my $engine = &$sub( $data ) ; #die ( "Error: Incorrect Data Type '$1'.\n" );
+
+    return $engine;
 }
 
 sub get {
     print "Getting: $_[0]\n";
 
+    use MaDAME::Engine::MusDat::Get;
+    my $engine = new MaDAME::Engine::MusDat::Get ( $_[0] );
+
+    return $engine;
 }
 
 sub calc {
     print "Calculating with: $_[0]\n";
 
+    use MaDAME::Engine::MusDat::Calc;
+    my $engine = new MaDAME::Engine::MusDat::Calc ( $_[0] );
+
+    return $engine;
 }
 1;

@@ -28,7 +28,9 @@ sub process {
 
     use MaDAME::Engine::MusDat::PreProcessor;
     my $pp = new MaDAME::Engine::MusDat::PreProcessor ( $method, $data );
-       $pp->sort_type;
+       
+    my $engine = $pp->sort_type;
 
+    print "Handler: $engine->{data}\n";
 }
 1;
