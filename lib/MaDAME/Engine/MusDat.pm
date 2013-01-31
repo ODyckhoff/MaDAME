@@ -37,6 +37,15 @@ sub init {
     
     my $method = $1;
 
-    print ( ( $method =~ /get/ ? 'Getting' : 'Calculaing' ) . " data for $data...\n" );
+    print ( ( $method =~ /get/ ? 'Getting' : 'Calculating' ) . " data for $data...\n" );
+
+    startHandler($method, $data);
 }
+
+sub startHandler {
+
+    use MaDAME::Engine::MusDat::Handler;
+    my $handler = new MaDAME::Engine::MusDat::Handler(@_);
+       $handler->process;
+}    
 1;

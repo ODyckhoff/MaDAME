@@ -5,9 +5,9 @@ package MaDAME::Engine;
 use strict;
 use warnings;
 
-use MaDAME::Configuration;
+use MaDAME::Configuration qw( %cfg );
 
-our $debug = 0;
+our ( %cfg, $debug );
 
 sub new {
     my $class = shift;
@@ -22,6 +22,7 @@ sub new {
         print "Class name is: $class\n";
         print "Engine required is: $self->{engine}\n";
         print "Data input is: " . join(', ', @{ $self->{data} }) . "\n";
+        #print "$cfg{MusDat}{Modes}{Major}{ignore}\n";
     #}
     return $self;
 }
