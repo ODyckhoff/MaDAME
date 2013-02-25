@@ -1,0 +1,117 @@
+13:02:43 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+13:02:43 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+13:02:43 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: get_data, ABCDEFG
+13:02:43 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 14 - get_data, ABCDEFG
+13:02:43 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 25 - get_data
+13:02:43 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 37 - Hurray, MusDat loaded!
+13:02:43 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 48 - Getting data for ABCDEFG...
+13:03:02 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+print() on closed filehandle STDERR at /home/ijz/programming/perl/MaDAME/lib/MaDAME/Log.pm line 44.
+13:03:02 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+print() on closed filehandle STDERR at /home/ijz/programming/perl/MaDAME/lib/MaDAME/Log.pm line 44.
+13:03:02 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: get_data, ABCDEFG
+print() on closed filehandle STDERR at /home/ijz/programming/perl/MaDAME/lib/MaDAME/Log.pm line 44.
+13:03:02 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 14 - get_data, ABCDEFG
+print() on closed filehandle STDERR at /home/ijz/programming/perl/MaDAME/lib/MaDAME/Log.pm line 44.
+13:03:02 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 25 - get_data
+print() on closed filehandle STDERR at /home/ijz/programming/perl/MaDAME/lib/MaDAME/Log.pm line 44.
+13:03:02 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 37 - Hurray, MusDat loaded!
+print() on closed filehandle STDERR at /home/ijz/programming/perl/MaDAME/lib/MaDAME/Log.pm line 44.
+13:03:02 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 48 - Getting data for ABCDEFG...
+13:03:15 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+print() on closed filehandle STDERR at /home/ijz/programming/perl/MaDAME/lib/MaDAME/Log.pm line 44.
+13:03:15 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+print() on closed filehandle STDERR at /home/ijz/programming/perl/MaDAME/lib/MaDAME/Log.pm line 44.
+13:03:15 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: get_data, ABCDEFG
+print() on closed filehandle STDERR at /home/ijz/programming/perl/MaDAME/lib/MaDAME/Log.pm line 44.
+13:03:15 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 14 - get_data, ABCDEFG
+print() on closed filehandle STDERR at /home/ijz/programming/perl/MaDAME/lib/MaDAME/Log.pm line 44.
+13:03:15 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 25 - get_data
+print() on closed filehandle STDERR at /home/ijz/programming/perl/MaDAME/lib/MaDAME/Log.pm line 44.
+13:03:15 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 37 - Hurray, MusDat loaded!
+print() on closed filehandle STDERR at /home/ijz/programming/perl/MaDAME/lib/MaDAME/Log.pm line 44.
+13:03:15 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 48 - Getting data for ABCDEFG...
+13:06:54 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+13:06:54 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+13:06:54 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: get_data, ABCDEFG
+13:06:54 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 14 - get_data, ABCDEFG
+13:06:54 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 25 - get_data
+13:06:54 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 37 - Hurray, MusDat loaded!
+13:06:54 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 48 - Getting data for ABCDEFG...
+13:07:22 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+13:07:22 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+13:07:22 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: get_data, ABCDEFG
+13:07:22 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 14 - get_data, ABCDEFG
+13:07:22 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 25 - get_data
+13:07:22 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 37 - Hurray, MusDat loaded!
+13:07:22 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 48 - Getting data for ABCDEFG...
+13:07:47 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+13:07:47 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+13:07:47 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: get_data, ABCDEFG
+13:07:47 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 14 - get_data, ABCDEFG
+13:07:47 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 25 - get_data
+13:07:47 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 37 - Hurray, MusDat loaded!
+13:07:47 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 48 - Getting data for ABCDEFG...
+13:10:22 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+13:10:22 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+13:10:22 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: get_data, ABCDEFG
+13:10:22 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 14 - get_data, ABCDEFG
+13:10:22 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 25 - get_data
+13:10:22 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 37 - Hurray, MusDat loaded!
+13:10:22 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 48 - Getting data for ABCDEFG...
+13:45:50 >>> DEBUG >>> MaDAME::Log - Line 55 - Class name is: MaDAME::Engine
+13:45:50 >>> DEBUG >>> MaDAME::Log - Line 55 - Engine required is: MaDAME::Engine::MusDat
+13:45:50 >>> DEBUG >>> MaDAME::Log - Line 55 - Data input is: get_data, ABCDEFG
+13:45:50 >>> DEBUG >>> MaDAME::Log - Line 55 - get_data, ABCDEFG
+13:45:50 >>> DEBUG >>> MaDAME::Log - Line 55 - get_data
+13:45:50 >>> DEBUG >>> MaDAME::Log - Line 55 - Hurray, MusDat loaded!
+13:45:50 >>> DEBUG >>> MaDAME::Log - Line 55 - Getting data for ABCDEFG...
+13:45:56 >>> DEBUG >>> MaDAME::Log - Line 55 - Class name is: MaDAME::Engine
+13:45:56 >>> DEBUG >>> MaDAME::Log - Line 55 - Engine required is: MaDAME::Engine::MusDat
+13:45:56 >>> DEBUG >>> MaDAME::Log - Line 55 - Data input is: get_data, ABCDEFG
+13:45:56 >>> DEBUG >>> MaDAME::Log - Line 55 - get_data, ABCDEFG
+13:45:56 >>> DEBUG >>> MaDAME::Log - Line 55 - get_data
+13:45:56 >>> DEBUG >>> MaDAME::Log - Line 55 - Hurray, MusDat loaded!
+13:45:56 >>> DEBUG >>> MaDAME::Log - Line 55 - Getting data for ABCDEFG...
+13:48:29 >>> DEBUG >>> MaDAME::Tools::ClassTester - Line 29 - Class name is: MaDAME::Engine
+13:48:29 >>> DEBUG >>> MaDAME::Tools::ClassTester - Line 29 - Engine required is: MaDAME::Engine::MusDat
+13:48:29 >>> DEBUG >>> MaDAME::Tools::ClassTester - Line 29 - Data input is: get_data, ABCDEFG
+13:48:29 >>> DEBUG >>> MaDAME::Engine - Line 37 - get_data, ABCDEFG
+13:48:29 >>> DEBUG >>> MaDAME::Engine - Line 37 - get_data
+13:48:29 >>> DEBUG >>> MaDAME::Engine - Line 38 - Hurray, MusDat loaded!
+13:48:29 >>> DEBUG >>> MaDAME::Engine - Line 38 - Getting data for ABCDEFG...
+13:52:34 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+13:52:34 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+13:52:34 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: get_data, ABCDEFG
+13:52:34 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 14 - get_data, ABCDEFG
+13:52:34 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 25 - get_data
+13:52:34 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 37 - Hurray, MusDat loaded!
+13:52:34 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 48 - Getting data for ABCDEFG...
+13:57:41 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+13:57:41 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+13:57:41 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: get_data, ABCDEFG
+13:57:41 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 14 - get_data, ABCDEFG
+13:57:41 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 25 - get_data
+13:57:41 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 37 - Hurray, MusDat loaded!
+13:57:41 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 48 - Getting data for ABCDEFG...
+13:58:22 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+13:58:22 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+13:58:22 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: get_data, ABCDEFG
+13:58:22 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 14 - get_data, ABCDEFG
+13:58:22 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 25 - get_data
+13:58:22 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 37 - Hurray, MusDat loaded!
+13:58:22 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 48 - Getting data for ABCDEFG...
+14:14:48 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+14:14:48 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+14:14:48 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: get_data, ABCDEFG
+14:14:48 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 14 - get_data, ABCDEFG
+14:14:48 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 25 - get_data
+14:14:48 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 37 - Hurray, MusDat loaded!
+14:14:48 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 48 - Getting data for ABCDEFG...
+14:19:38 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+14:19:38 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+14:19:38 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: get_data, ABCDEFG
+14:19:38 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 14 - get_data, ABCDEFG
+14:19:38 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 25 - get_data
+14:19:38 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 37 - Hurray, MusDat loaded!
+14:19:38 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 48 - Getting data for ABCDEFG...

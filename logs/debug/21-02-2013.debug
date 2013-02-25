@@ -1,0 +1,25 @@
+15:42:07 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 14 - get_data, ABCDEFG
+15:42:07 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 25 - get_data
+15:42:07 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 37 - Hurray, MusDat loaded!
+15:42:07 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 48 - Getting data for ABCDEFG...
+15:49:28 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+15:49:28 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+15:49:28 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: get_data, ABCDEFG
+15:49:28 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 14 - get_data, ABCDEFG
+15:49:28 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 25 - get_data
+15:49:28 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 37 - Hurray, MusDat loaded!
+15:49:28 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 48 - Getting data for ABCDEFG...
+15:49:44 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+15:49:44 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+15:49:44 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: get_data, ABCDEFG
+15:49:44 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 14 - get_data, ABCDEFG
+15:49:44 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 25 - get_data
+15:49:44 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 37 - Hurray, MusDat loaded!
+15:49:44 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 48 - Getting data for ABCDEFG...
+15:55:10 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+15:55:10 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+15:55:10 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: get_data, ABCDEFG
+15:55:10 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 14 - get_data, ABCDEFG
+15:55:10 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 25 - get_data
+15:55:10 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 37 - Hurray, MusDat loaded!
+15:55:10 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 48 - Getting data for ABCDEFG...

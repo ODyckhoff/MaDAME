@@ -2,35 +2,44 @@
 
 package MaDAME::Configuration;
 
+# Declare base pragmas.
 use strict;
 use warnings;
 
+# use MaDAME::Log;
+
+# Export required variables and/or subroutines.
 use Exporter;
-my @ISA = qw( Exporter );
-my @EXPORT = qw( %cfg );
+use vars qw( @ISA @EXPORT );
+@ISA = qw( Exporter );
+@EXPORT = qw( %cfg );
 
 our %cfg;
 
+# Get the absolute path of the script to look for.
 use Cwd 'abs_path';
 my $path = abs_path($0);
 chomp $path;
-print "$path\n";
+#print "$path\n";
 
+# Trim the path to leave only the location of the root directory of the MaDAME application.
+# ( Too much guessing? )
 $path =~ s{(?<!MaDAME)(.+?)MaDAME.*}{$1MaDAME};
 
 my $directory = $path . '/config/';
-opendir (DIR, $directory) or die $!;
+opendir (my $dirhandle, $directory) or die $!;
 
-while (my $file = readdir(DIR)) {
+while (my $file = readdir($dirhandle)) {
     next if ( $file =~ /^\.\.?$/ );
-    print "$file\n";
+    #print "$file\n";
     if(do $directory . $file) {
-        print "  hurray\n";
+    
+        # something
     } else {
-        print "$!\n";
+         # "Error loading configuration: $!\n";
     }
 }
 
-closedir(DIR);
+closedir($dirhandle);
 
 1;

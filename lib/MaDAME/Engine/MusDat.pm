@@ -5,8 +5,13 @@ package MaDAME::Engine::MusDat;
 use strict;
 use warnings;
 
+use MaDAME::Log;
+
+use MaDAME::Engine::MusDat::GetHandler;
+use MaDAME::Engine::MusDat::CalcHandler;
+
 sub new {
-    print join( ', ', @{ $_[1] }) . "\n";
+    debug( join( ', ', @{ $_[1] }) );
     my $class = shift;
     my $paramsref = shift;
        my @params = @$paramsref;
@@ -17,7 +22,7 @@ sub new {
         request => $request, # Should be either 'get_data' or 'calc_data'.
         data    => $data,
     };
-    print "$self->{request}\n";
+    debug( $self->{request} );
     bless $self, $class;
 
     return $self;
@@ -29,23 +34,31 @@ sub init {
     my $request = $self->{request};
     my $data    = $self->{data};
 
-    print "Hurray, MusDat loaded!\n";
+    debug( "Hurray, MusDat loaded!" );
     
+
+    # Check for sane request.
     unless ( $request =~ /^(get|calc)_data$/ ) {
         die("Error! Request is '$request'. Should be either 'get_data' or 'calc_data'");
     }
     
+    # Guaranteed that $1 won't be undefined at this stage, and that the value will be one that MaDAME expects.
     my $method = $1;
 
-    print ( ( $method =~ /get/ ? 'Getting' : 'Calculating' ) . " data for $data...\n" );
+    debug( ( $method =~ /get/ ? 'Getting' : 'Calculating' ) . " data for $data..." );
 
     startHandler($method, $data);
 }
 
 sub startHandler {
+    my $handler;
 
-    use MaDAME::Engine::MusDat::Handler;
-    my $handler = new MaDAME::Engine::MusDat::Handler(@_);
-       $handler->process;
+    if ( shift eq 'get' ) { 
+        $handler = new MaDAME::Engine::MusDat::GetHandler(@_);
+    } else {
+        $handler = new MaDAME::Engine::MusDat::CalcHandler(@_);
+    }
+    
+    # $handler->process;
 }    
 1;

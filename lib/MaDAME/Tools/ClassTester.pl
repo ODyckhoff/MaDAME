@@ -17,7 +17,7 @@ my $methodWant = shift || 'init';
 my $debugMode = shift || 0;
 
 my @params = @ARGV;
-print join( ', ', @params ) . "\n";
+# print join( ', ', @params ) . "\n";
 
 ( my $requirement = $path . '/' . $class . '.pm' ) =~ s{::}{/}g;
 require $requirement;
