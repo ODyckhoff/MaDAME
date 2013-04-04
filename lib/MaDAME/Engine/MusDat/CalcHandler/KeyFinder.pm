@@ -31,29 +31,23 @@ use warnings;
 
 ####### NEW CODE #######
 my @notes = @ARGV;
-print(join(", ", @notes) . "\n");
-#@notes = sort( @notes );
-
 my @possible = ();
 
-
 for( my $root = 0; $root < 12; $root++ ) {
-
     my @ttsttts = ( 0, 2, 4, 5, 7, 9, 11 );
     @ttsttts = map { $_ + $root } @ttsttts;
-    foreach(@ttsttts) {
-        if($_ >= 12) {
+    
+    foreach( @ttsttts ) {
+        if( $_ >= 12 ) {
             $_ -= 12;
         }
     }
    
-    print(join(", ", @ttsttts) . "\n");
- 
     my @result = ();
 
     foreach my $note ( @notes ) {
-        if ($note ~~ @ttsttts) {
-            push(@result, $note);
+        if( $note ~~ @ttsttts ) {
+            push( @result, $note );
         }
     }
 
@@ -62,7 +56,12 @@ for( my $root = 0; $root < 12; $root++ ) {
     }
 }
 
-print( "The possible keys are " . join( ", ", @possible ) . " major and their relative minors\n" );
+if(@possible) {
+    print( "The possible keys are " . join( ", ", @possible ) . " major and their relative minors\n" );
+}
+else {
+    print( "There are no possible keys for the given notes.\n" );
+}
 
 ####### OLD CODE #######
 #
