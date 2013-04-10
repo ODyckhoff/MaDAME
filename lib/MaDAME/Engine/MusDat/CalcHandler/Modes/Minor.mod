@@ -1,0 +1,12 @@
+natural:{
+scale:0,2,3,5,7,8,10
+chord:0,3,7
+progression:0m,2dim,3,5m,7m,8,10
+}
+harmonic:{
+progression:0m,2dim,3aug,5m,7,8,11dim
+}
+melodic:{
+progression:0m,2m,3aug,5,7,9dim,11dim
+}
+relative:3
