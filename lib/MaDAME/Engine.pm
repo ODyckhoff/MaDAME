@@ -6,7 +6,7 @@ use strict;
 use warnings;
 
 use MaDAME::Configuration;
-use MaDAME::Log;
+use MaDAME::Log qw( debug error );
 
 our ( %cfg );
 

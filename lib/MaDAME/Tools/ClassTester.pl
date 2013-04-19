@@ -26,5 +26,7 @@ my $debugref = $class . '::debug';
 my $debug = \$debugref;
    $$debug = 1 if $debugMode;
 
-my $object = $class->new ( @params );
-$object->$methodWant;
+#my $object = $class->new ( @params );
+#$object->$methodWant;
+
+# perl Tools/ClassTester.pl MaDAME::Engine::MusDat::CalcHandler::Chord

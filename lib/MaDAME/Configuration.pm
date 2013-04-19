@@ -36,7 +36,7 @@ while (my $file = readdir($dirhandle)) {
     
         # something
     } else {
-         # "Error loading configuration: $!\n";
+         print "Error loading configuration: $file\n";
     }
 }
 

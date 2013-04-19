@@ -1,0 +1,3 @@
+13:23:16 >>> ERROR >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 145 - Too many notes in chord (0, 4, 7, 9).
+13:33:25 >>> ERROR >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 145 - Too few notes in chord (7, 9).
+13:36:14 >>> ERROR >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 144 - Unknown chord type for chord (1, 7, 9).

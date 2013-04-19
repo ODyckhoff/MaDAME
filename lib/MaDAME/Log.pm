@@ -63,6 +63,7 @@ sub request {
 }
 
 sub error {
+    return unless $cfg{error_mode};
     my $logtype = 'error';
     unshift ( @_, $logtype );
     writelog( @_ );
