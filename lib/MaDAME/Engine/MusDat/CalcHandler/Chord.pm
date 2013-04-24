@@ -29,8 +29,30 @@ sub maj7 {
 }
 
 sub getProgression {
+    my $key = $_[0];
+    my @progression = ();
 
+    if    ($key =~ s/nat//) {
+        @progression = $Mode::Minor::getKeyProg($key, $&);
+    }
+    elsif ($key =~ s/har//) {
+        @progression = $Mode::Minor::getKeyProg($key, $&);
+    }
+    elsif ($key =~ s/mel//) {
+        @progression = $Mode::Minor::getKeyProg($key, $&);
+    }
+    else {
+        # Probably major
+        @progression = $Mode::Major::getKeyProg($key) 
+            unless ( $key =~ /\D/ && error( "'$key' is not a valid key.") ) ;
+    }
 
+    for my $chord ( @progression ) {
+        # replace each root note in the progression with its chord.
+        $chord = \@{ getChordNotes( $chord ) };
+    }
+
+    return @progression;
 }
 
 sub getChordNotes {
@@ -43,17 +65,19 @@ sub getChordNotes {
     my @notes = ();
 
     if($mode =~ /^(maj|dom7|maj7|aug)$/) {
-        # Major.pm
+        @notes = $Mode::Major::getChord($key);
     }
     elsif($mode =~ /^(m|mdom7|mmaj7|dim)$/) {
-        # Minor.pm
+        @notes = $Mode::Minor::getChord($key);
     }
     else {
         # unrecognised mode.
     }
 
-    @notes = augment(@notes)  if $mode eq 'aug';
-    @notes = diminish(@notes) if $mode eq 'dim';
+    @notes = augment(@notes)  if $mode eq 'aug' ;
+    @notes = diminish(@notes) if $mode eq 'dim' ;
+    @notes = dom7(@notes)     if $mode eq 'dom7';
+    @notes = maj7(@notes)     if $mode eq 'maj7';
 
     return @notes;
 }
@@ -126,23 +150,34 @@ sub getKeysByChord {
     # melodic  - min min aug maj maj dim dim
 
     my @chord = @_;
+    my @positions = ();
+    my @keys = ();
+
     if( scalar( @chord ) == 3 ) {
         # Could be a maj, min, aug or dim.
            if( $chord[0] == $chord[1] - 4 && $chord[1] == $chord[2] - 3 ) {
             # Major 3rd followed by Minor 3rd. Major Chord.
             debug( "Found major chord (" . join(', ', @chord) . ")." );
+
+            push( @positions, ( \(0, 3, 4), \(2, 5, 6), \(4, 5), \(3, 4) ) );
         }
         elsif( $chord[0] == $chord[1] - 3 && $chord[1] == $chord[2] - 4 ) {
             # Minor 3rd followed by Major 3rd. Minor Chord.
             debug( "Found minor chord (" . join(', ', @chord) . ")." );
+
+            push( @positions, ( \(1, 2, 5), \(0, 3, 4), \(0, 3), \(0, 1) ) );
         }
         elsif( $chord[0] == $chord[1] - 4 && $chord[1] == $chord[2] - 4 ) {
             # Two Major 3rd intervals. Augmented Chord.
             debug( "Found augmented chord (" . join(', ', @chord) . ")." );
+
+            push( @positions, ( \( ), \( ), \(2), \(2) ) );
         }
         elsif( $chord[0] == $chord[1] - 3 && $chord[1] == $chord[2] - 3 ) {
             # Two Minor 3rd intervals. Diminished Chord.
             debug( "Found diminished chord (" . join(', ', @chord) . ")." );
+
+            push( @positions, ( \(6), \(1), \(1, 6), \(5, 6) ) );
         }
         else {
             # Unknown.
@@ -154,6 +189,23 @@ sub getKeysByChord {
         error( ( scalar( @chord ) > 3 ? "Too many notes" : "Too few notes" ) . " in chord (" . join(', ', @chord ) . ")." );
     }
 
+    # Loop through all chord positions.
+    for(my $i = 0; $i < 4; $i++) {
+        next unless $positions[$i]; # chord type does not appear, move on.
+        
+        foreach my $position ( @{ $positions[$i] } ) {
+            # Subract the root note of the chord by the number of the position to get the key
+            
+            my $key  = $chord[0] - $position;
+            my $key .= 'min' if ( $i == 1 );
+            my $key .= 'har' if ( $i == 2 );
+            my $key .= 'mel' if ( $i == 3 );
+
+            push( @keys, $key );
+        }
+    }
+
+    return @keys;
 }
 
 my @notes = (1, 4, 7);
