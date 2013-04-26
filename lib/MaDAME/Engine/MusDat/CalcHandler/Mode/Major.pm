@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-#package MaDAME::Engine::MusDat::CalcHandler::Mode::Major;
+package MaDAME::Engine::MusDat::CalcHandler::Mode::Major;
 
 use strict;
 use warnings;
@@ -34,7 +34,7 @@ sub getScale {
     }
     my @scale = @{ $key{natural}{scale} };
     my @fullscale = (@scale, $scale[0] + 12, reverse(@scale));
-    print(join(', ', @fullscale) . "\n");
+    # print(join(', ', @fullscale) . "\n");
 
     #adjust to key
     @fullscale = map { $_ + $keynumber } @fullscale;
@@ -51,6 +51,4 @@ sub getChord {
 
     return @chord;
 }
-
-print(join(', ', getScale(2)) . "\n");
-
+1;

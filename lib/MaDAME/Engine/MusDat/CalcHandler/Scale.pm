@@ -5,20 +5,25 @@ package MaDAME::Engine::MusDat::CalcHandler::Scale;
 use strict;
 use warnings;
 
-sub getScale {
+use MaDAME::Configuration;
+use MaDAME::Log;
+use MaDAME::Engine::MusDat::CalcHandler::Mode::Minor;
+use MaDAME::Engine::MusDat::CalcHandler::Mode::Major;
+
+sub findScale {
     my ($key) = @_;
-    my $mode = shift;
     my @scale;
 
     $key =~ /(\d+)(\w+)?/;
     my $keynumber = $1;
-    my $minor = $2 ? 1 : 0;
-    if ($minor && $mode) {
-        @scale = $Mode::Minor::getScale($keynumber, 'min');
+    my $minor = $2 ? $2 : 'nat';
+    if ($minor) {
+        @scale = &MaDAME::Engine::MusDat::CalcHandler::Mode::Minor::getScale($keynumber, $minor);
     }
     else {
-        @scale = $Mode::Major::getScale($keynumber);
+        @scale = &MaDAME::Engine::MusDat::CalcHandler::Mode::Major::getScale($keynumber);
     }
-
+    debug( "scale is: " . join(', ', @scale));
     return @scale;
 }
+1;

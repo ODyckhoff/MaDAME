@@ -7,6 +7,8 @@ use warnings;
 
 use MaDAME::Configuration;
 use MaDAME::Log qw( debug error );
+use MaDAME::Engine::MusDat::CalcHandler::Mode::Minor;
+use MaDAME::Engine::MusDat::CalcHandler::Mode::Major;
 
 sub augment {
     $_[2]++;
@@ -33,23 +35,24 @@ sub getProgression {
     my @progression = ();
 
     if    ($key =~ s/nat//) {
-        @progression = $Mode::Minor::getKeyProg($key, $&);
+        @progression = &MaDAME::Engine::MusDat::CalcHandler::Mode::Minor::getKeyProg($key, $&);
     }
     elsif ($key =~ s/har//) {
-        @progression = $Mode::Minor::getKeyProg($key, $&);
+        @progression = &MaDAME::Engine::MusDat::CalcHandler::Mode::Minor::getKeyProg($key, $&);
     }
     elsif ($key =~ s/mel//) {
-        @progression = $Mode::Minor::getKeyProg($key, $&);
+        @progression = &MaDAME::Engine::MusDat::CalcHandler::Mode::Minor::getKeyProg($key, $&);
     }
     else {
         # Probably major
-        @progression = $Mode::Major::getKeyProg($key) 
+        @progression = &MaDAME::Engine::MusDat::CalcHandler::Mode::Major::getKeyProg($key) 
             unless ( $key =~ /\D/ && error( "'$key' is not a valid key.") ) ;
     }
 
     for my $chord ( @progression ) {
         # replace each root note in the progression with its chord.
-        $chord = \@{ getChordNotes( $chord ) };
+        $chord = [ getChordNotes( $chord ) ];
+        debug("chord? " . join( ', ', @{ $chord } ));
     }
 
     return @progression;
@@ -57,18 +60,19 @@ sub getProgression {
 
 sub getChordNotes {
     my ($chord) = @_;
+    debug("testing $chord");
 
-    $chord =~ /^(\d)(.*?)?$/;
+    $chord =~ /^(\d+)(\w+?)?$/;
     my $key = $1;
     my $mode = $2 || 'maj';
 
     my @notes = ();
 
     if($mode =~ /^(maj|dom7|maj7|aug)$/) {
-        @notes = $Mode::Major::getChord($key);
+        @notes = &MaDAME::Engine::MusDat::CalcHandler::Mode::Major::getChord($key);
     }
-    elsif($mode =~ /^(m|mdom7|mmaj7|dim)$/) {
-        @notes = $Mode::Minor::getChord($key);
+    elsif($mode =~ /^(min|mdom7|mmaj7|dim|nat|har|mel|m)$/) {
+        @notes = &MaDAME::Engine::MusDat::CalcHandler::Mode::Minor::getChord($key);
     }
     else {
         # unrecognised mode.
@@ -84,7 +88,7 @@ sub getChordNotes {
 
 sub getChordsByNote {
     my ($note) = @_;
-    
+ 
     my @chords = (
     # root chords.
         # major chords.
@@ -159,25 +163,25 @@ sub getKeysByChord {
             # Major 3rd followed by Minor 3rd. Major Chord.
             debug( "Found major chord (" . join(', ', @chord) . ")." );
 
-            push( @positions, ( \(0, 3, 4), \(2, 5, 6), \(4, 5), \(3, 4) ) );
+            push( @positions, [\(0, 3, 4), \(2, 5, 6), \(4, 5), \(3, 4)] );
         }
         elsif( $chord[0] == $chord[1] - 3 && $chord[1] == $chord[2] - 4 ) {
             # Minor 3rd followed by Major 3rd. Minor Chord.
             debug( "Found minor chord (" . join(', ', @chord) . ")." );
 
-            push( @positions, ( \(1, 2, 5), \(0, 3, 4), \(0, 3), \(0, 1) ) );
+            push( @positions, [\(1, 2, 5), \(0, 3, 4), \(0, 3), \(0, 1)] );
         }
         elsif( $chord[0] == $chord[1] - 4 && $chord[1] == $chord[2] - 4 ) {
             # Two Major 3rd intervals. Augmented Chord.
             debug( "Found augmented chord (" . join(', ', @chord) . ")." );
 
-            push( @positions, ( \( ), \( ), \(2), \(2) ) );
+            push( @positions, [\( ), \( ), \(2), \(2)] );
         }
         elsif( $chord[0] == $chord[1] - 3 && $chord[1] == $chord[2] - 3 ) {
             # Two Minor 3rd intervals. Diminished Chord.
             debug( "Found diminished chord (" . join(', ', @chord) . ")." );
 
-            push( @positions, ( \(6), \(1), \(1, 6), \(5, 6) ) );
+            push( @positions, [\(6), \(1), \(1, 6), \(5, 6)] );
         }
         else {
             # Unknown.
@@ -197,9 +201,9 @@ sub getKeysByChord {
             # Subract the root note of the chord by the number of the position to get the key
             
             my $key  = $chord[0] - $position;
-            my $key .= 'min' if ( $i == 1 );
-            my $key .= 'har' if ( $i == 2 );
-            my $key .= 'mel' if ( $i == 3 );
+            $key .= 'min' if ( $i == 1 );
+            $key .= 'har' if ( $i == 2 );
+            $key .= 'mel' if ( $i == 3 );
 
             push( @keys, $key );
         }
@@ -208,8 +212,8 @@ sub getKeysByChord {
     return @keys;
 }
 
-my @notes = (1, 4, 7);
-getKeysByChord(@notes);
+#my @notes = (1, 4, 7);
+#getKeysByChord(@notes);
 #print(join(', ', augment(@notes)) . "\n");
 #@notes = (0, 4, 7);
 #print(join(', ', diminish(@notes)) . "\n");

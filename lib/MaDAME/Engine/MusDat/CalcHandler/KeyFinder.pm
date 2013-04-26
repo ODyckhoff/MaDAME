@@ -5,7 +5,8 @@ package MaDAME::Engine::MusDat::CalcHandler::KeyFinder;
 use strict;
 use warnings;
 
-# use MaDAME::Configuration;
+use MaDAME::Configuration;
+use MaDAME::Log;
 
     # number - 0,  1,  2,  3,  4,  5,  6,  7
     # --------------------------------------
@@ -30,38 +31,69 @@ use warnings;
 
 
 ####### NEW CODE #######
-my @notes = @ARGV;
-my @possible = ();
+sub getKey {
+    my @notes = @_;
+    my @possible = ();
 
-for( my $root = 0; $root < 12; $root++ ) {
-    my @ttsttts = ( 0, 2, 4, 5, 7, 9, 11 );
-    @ttsttts = map { $_ + $root } @ttsttts;
+    for( my $root = 0; $root < 12; $root++ ) {
+        my @major = ( 0, 2, 4, 5, 7, 9, 11 );
+        my @harmo = ( 0, 2, 3, 5, 7, 8, 11 );
+        my @melod = ( 0, 2, 3, 5, 7, 9, 11 );
+
+        @major = map { $_ + $root } @major;
+        @harmo = map { $_ + $root } @harmo;
+        @melod = map { $_ + $root } @melod;
+        
+        for(my $i = 0; $i < scalar( @major ); $i++) {
+            if( $major[$i] >= 12 ) {
+                $major[$i] -= 12;
+            }
+            if( $harmo[$i] >= 12 ) {
+                $harmo[$i] -= 12;
+            }
+            if( $melod[$i] >= 12 ) {
+                $melod[$i] -= 12;
+            }
+        }
+       
+        my @majresult = ();
+        my @harresult = ();
+        my @melresult = ();
     
-    foreach( @ttsttts ) {
-        if( $_ >= 12 ) {
-            $_ -= 12;
+        foreach my $note ( @notes ) {
+
+            if( $note ~~ @major ) {
+                push( @majresult, $note );
+            }
+            if( $note ~~ @harmo ) {
+                push( @harresult, $note );
+            }
+            if( $note ~~ @melod ) {
+                push( @melresult, $note );
+            }
+        }
+         
+        if( scalar( @majresult ) == scalar( @notes ) ) {
+            push( @possible, $root );
+        }
+        if( scalar( @harresult ) == scalar( @notes ) ) {
+            push( @possible, $root . 'har' );
+        }
+        if( scalar( @melresult ) == scalar( @notes ) ) {
+            push( @possible, $root . 'mel' );
         }
     }
-   
-    my @result = ();
-
-    foreach my $note ( @notes ) {
-        if( $note ~~ @ttsttts ) {
-            push( @result, $note );
-        }
+    
+    if(@possible) {
+        debug( "The possible keys are " . join( ", ", @possible ) . " major and their relative minors\n" );
+        return @possible;
     }
-
-    if( scalar( @result ) == scalar( @notes ) ) {
-        push( @possible, $root );
+    else {
+        debug( "There are no possible keys for the given notes.\n" );
+        return ();
     }
 }
-
-if(@possible) {
-    print( "The possible keys are " . join( ", ", @possible ) . " major and their relative minors\n" );
-}
-else {
-    print( "There are no possible keys for the given notes.\n" );
-}
+1;
 
 ####### OLD CODE #######
 #

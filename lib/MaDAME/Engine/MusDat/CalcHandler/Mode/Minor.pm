@@ -1,22 +1,25 @@
 #!/usr/bin/perl
 
-#package MaDAME::Engine::MusDat::CalcHandler::Mode::Major;
+package MaDAME::Engine::MusDat::CalcHandler::Mode::Minor;
 
 use strict;
 use warnings;
 
-our %key = (natural  => {
+use MaDAME::Configuration;
+use MaDAME::Log;
+
+our %key = (nat  => {
                           scale => [0, 2, 3, 5, 7, 8, 10],
                           chord => [0, 3, 7],
                           progression => ['0min', '2dim', '3', '5min', '7min', '8', '10'],
                         },
-            harmonic => {
+            har => {
                           progression => ['0min', '2dim', '3aug', '5min', '7', '8', '11dim'],
                         },
-            melodic  => {
+            mel  => {
                           progression => ['0min', '2min', '3aug', '5', '7', '9dim', '11dim'],
                         },
-            relative => 3,
+            rel => 3,
           );
 
 sub getKeyProg {
@@ -30,12 +33,13 @@ sub getKeyProg {
 }
 
 sub getRelative {
-    return $_[0] + $key{relative};
+    debug(join(', ', @_));
+    return ( $_[0] + $key{rel} );
 }
 
 sub getScale {
     my ($keynumber, $mode) = @_;
-    my @scale = @{ $key{natural}{scale} };
+    my @scale = @{ $key{nat}{scale} };
     my @fullscale = (@scale, $scale[0] + 12, reverse(@scale));
     print(join(', ', @fullscale) . "\n");
 
@@ -65,11 +69,8 @@ sub getChord {
     if($root =~ /\D/) {
         error("Invalid note number provided");
     }
-    my @chord = map { $_ + $root } @{ $key{natural}{chord} };
+    my @chord = map { $_ + $root } @{ $key{nat}{chord} };
 
     return @chord;
 }
-
-print(join(', ', getScale(2, 'nat')) . "\n");
-
-# print join(", ", getProgression(3)) . "\n";
+1;

@@ -1,0 +1,996 @@
+06:31:41 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+06:31:41 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+06:31:41 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: 
+06:33:28 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+06:33:28 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+06:33:28 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: 
+06:34:46 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+06:34:46 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+06:34:46 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: ARRAY(0x1b4e270)
+06:35:10 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+06:35:10 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+06:35:10 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: 0
+06:36:37 >>> DEBUG >>> MaDAME - Line 14 - @request contains: 
+06:36:37 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+06:36:37 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+06:36:37 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: 0
+06:37:00 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 1, 2, 3, 4
+06:37:00 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+06:37:00 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+06:37:00 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: 6
+06:40:31 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 1, 2, 3, 4
+06:40:31 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+06:40:31 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+06:40:31 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 1, 2, 3, 4
+06:41:28 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 1, 2, 3, 4
+06:41:28 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+06:41:28 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+06:41:28 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 1, 2, 3, 4
+06:41:28 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 14 - KeyFinder, 0, 1, 2, 3, 4
+06:41:28 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 25 - KeyFinder
+06:41:28 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 37 - Hurray, MusDat loaded!
+06:42:25 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 1, 2, 3, 4
+06:42:25 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+06:42:25 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+06:42:25 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 1, 2, 3, 4
+06:42:25 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 14 - KeyFinder, 0, 1, 2, 3, 4
+06:42:25 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 25 - KeyFinder
+06:42:25 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 37 - Hurray, MusDat loaded!
+06:43:56 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 1, 2, 3, 4
+06:43:56 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+06:43:56 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+06:43:56 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 1, 2, 3, 4
+06:43:56 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 14 - KeyFinder, 0, 1, 2, 3, 4
+06:43:56 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 25 - KeyFinder
+06:43:56 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 37 - Hurray, MusDat loaded!
+06:48:18 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 1, 2, 3, 4
+06:48:18 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+06:48:18 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+06:48:18 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 1, 2, 3, 4
+06:48:18 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 14 - KeyFinder, 0, 1, 2, 3, 4
+06:48:18 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 20 - 0
+06:48:18 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 25 - KeyFinder
+06:48:18 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 37 - Hurray, MusDat loaded!
+06:48:57 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 1, 2, 3, 4
+06:48:57 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+06:48:57 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+06:48:57 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 1, 2, 3, 4
+06:49:18 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 1, 2, 3, 4
+06:49:18 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+06:49:18 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+06:49:18 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 1, 2, 3, 4
+06:49:18 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 14 - KeyFinder, 0, 1, 2, 3, 4
+06:52:28 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 1, 2, 3, 4
+06:52:28 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+06:52:28 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+06:52:28 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 1, 2, 3, 4
+06:53:05 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 1, 2, 3, 4
+06:53:05 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+06:53:05 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+06:53:05 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 1, 2, 3, 4
+06:53:05 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+06:53:05 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+06:54:32 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 1, 2, 3, 4
+06:54:32 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+06:54:32 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+06:54:32 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 1, 2, 3, 4
+06:54:32 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+06:54:32 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+06:57:02 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 1, 2, 3, 4
+06:57:02 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+06:57:02 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+06:57:02 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 1, 2, 3, 4
+06:57:17 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 1, 2, 3, 4
+06:57:17 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+06:57:17 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+06:57:17 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 1, 2, 3, 4
+06:57:17 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+06:57:17 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+06:57:17 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 66 - There are no possible keys for the given notes.
+
+06:58:22 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8
+06:58:22 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+06:58:22 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+06:58:22 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8
+06:58:22 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+06:58:22 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+06:58:22 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 3 major and their relative minors
+
+06:58:41 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 1, 3, 4, 6, 8, 9
+06:58:41 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+06:58:41 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+06:58:41 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 1, 3, 4, 6, 8, 9
+06:58:41 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+06:58:41 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+06:58:41 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 4 major and their relative minors
+
+06:58:48 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8
+06:58:48 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+06:58:48 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+06:58:48 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8
+06:58:48 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+06:58:48 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+06:58:48 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 3 major and their relative minors
+
+06:58:57 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 1, 3, 4, 6, 8, 9
+06:58:57 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+06:58:57 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+06:58:57 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 1, 3, 4, 6, 8, 9
+06:58:57 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+06:58:57 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+06:58:57 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 4 major and their relative minors
+
+07:00:39 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 1, 3, 4, 6, 8, 9
+07:00:39 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:00:39 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:00:39 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 1, 3, 4, 6, 8, 9
+07:00:39 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:00:39 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:00:39 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 4 major and their relative minors
+
+07:01:32 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 1, 3, 4, 6, 8, 9
+07:01:32 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:01:32 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:01:32 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 1, 3, 4, 6, 8, 9
+07:02:58 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 1, 3, 4, 6, 8, 9
+07:02:58 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:02:58 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:02:58 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 1, 3, 4, 6, 8, 9
+07:04:54 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 1, 3, 4, 6, 8, 9
+07:04:54 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:04:54 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:04:54 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 1, 3, 4, 6, 8, 9
+07:13:04 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 1, 3, 4, 6, 8, 9
+07:13:04 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:13:04 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:13:04 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 1, 3, 4, 6, 8, 9
+07:13:31 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 1, 3, 4, 6, 8, 9
+07:13:31 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:13:31 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:13:31 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 1, 3, 4, 6, 8, 9
+07:13:52 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 1, 3, 4, 6, 8, 9
+07:13:52 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:13:52 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:13:52 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 1, 3, 4, 6, 8, 9
+07:13:52 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:13:52 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:13:52 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 4 major and their relative minors
+
+07:14:13 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 1, 3, 4, 6, 8, 9
+07:14:13 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:14:13 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:14:13 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 1, 3, 4, 6, 8, 9
+07:14:13 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:14:13 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:14:13 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 4 major and their relative minors
+
+07:15:34 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 1, 3, 4, 6, 8, 9
+07:15:34 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:15:34 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:15:34 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 1, 3, 4, 6, 8, 9
+07:15:34 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:15:34 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:15:34 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 4 major and their relative minors
+
+07:17:56 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 1, 3, 4, 6, 8, 9
+07:17:56 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:17:56 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:17:56 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 1, 3, 4, 6, 8, 9
+07:17:56 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:17:56 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:17:56 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 4 major and their relative minors
+
+07:18:47 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 1, 3, 4, 6, 8, 9
+07:18:47 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:18:47 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:18:47 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 1, 3, 4, 6, 8, 9
+07:18:47 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:18:47 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:18:47 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 4 major and their relative minors
+
+07:20:37 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 1, 3, 4, 6, 8, 9
+07:20:37 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:20:37 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:20:37 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 1, 3, 4, 6, 8, 9
+07:20:37 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:20:37 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:20:37 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 4 major and their relative minors
+
+07:21:16 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 1, 3, 4, 6, 8, 9
+07:21:16 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:21:16 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:21:16 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 1, 3, 4, 6, 8, 9
+07:21:16 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:21:16 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:21:16 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 4 major and their relative minors
+
+07:22:15 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 1, 3, 4, 6, 8, 9
+07:22:15 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:22:15 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:22:15 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 1, 3, 4, 6, 8, 9
+07:22:15 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:22:15 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:22:15 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 4 major and their relative minors
+
+07:22:25 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 1, 3, 4, 6, 8, 9
+07:22:25 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:22:25 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:22:25 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 1, 3, 4, 6, 8, 9
+07:22:25 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:22:25 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:22:25 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 4 major and their relative minors
+
+07:26:04 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 1, 3, 4, 6, 8, 9
+07:26:04 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:26:04 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:26:04 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 1, 3, 4, 6, 8, 9
+07:26:04 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:26:04 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:26:04 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 4 major and their relative minors
+
+07:26:20 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 1, 3, 4, 6, 8, 9
+07:26:20 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:26:20 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:26:20 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 1, 3, 4, 6, 8, 9
+07:26:20 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:26:20 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:26:20 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 4 major and their relative minors
+
+07:29:12 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 1, 3, 4, 6, 8, 9
+07:29:12 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:29:12 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:29:12 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 1, 3, 4, 6, 8, 9
+07:29:12 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:29:12 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:29:12 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 4 major and their relative minors
+
+07:29:39 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 1, 3, 4, 6, 8, 9
+07:29:39 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:29:39 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:29:39 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 1, 3, 4, 6, 8, 9
+07:29:40 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:29:40 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:29:40 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 4 major and their relative minors
+
+07:29:40 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 52 - scale in key 4 is 4
+07:31:45 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 1, 3, 4, 6, 8, 9
+07:31:45 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:31:45 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:31:45 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 1, 3, 4, 6, 8, 9
+07:31:45 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:31:45 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:31:45 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 4 major and their relative minors
+
+07:31:45 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 27 - scale is: 4, 6, 8, 9, 11, 13, 15, 16, 15, 13, 11, 9, 8, 6, 4
+07:31:45 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 52 - scale in key 4 is 4
+07:33:47 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8
+07:33:47 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:33:47 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:33:47 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8
+07:33:47 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:33:47 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:33:47 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 3 major and their relative minors
+
+07:33:47 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 27 - scale is: 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:33:47 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 52 - scale in key 3 is 3
+07:35:53 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8
+07:35:53 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:35:53 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:35:53 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8
+07:35:53 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:35:53 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:35:53 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 3 major and their relative minors
+
+07:35:53 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 27 - scale is: 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:35:53 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 52 - scale in key 3 is ARRAY(0x1470bd8)
+07:36:29 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8
+07:36:29 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:36:29 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:36:29 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8
+07:36:29 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:36:29 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:36:29 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 3 major and their relative minors
+
+07:36:29 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 27 - scale is: 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:36:29 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 52 - scale in key 3 is ARRAY(0x1a9bc18)
+07:37:02 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8
+07:37:02 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:37:02 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:37:02 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8
+07:37:02 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:37:02 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:37:02 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 3 major and their relative minors
+
+07:37:02 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 27 - scale is: 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:37:02 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 52 - scale in key 3 is 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:37:38 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8
+07:37:38 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:37:38 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:37:38 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8
+07:37:38 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:37:38 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:37:38 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 3 major and their relative minors
+
+07:37:38 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 27 - scale is: 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:37:38 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 52 - scale in key 3 is 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:40:29 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8
+07:40:29 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:40:29 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:40:29 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8
+07:40:29 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:40:29 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:40:29 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 3 major and their relative minors
+
+07:40:29 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 27 - scale is: 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:40:29 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 52 - scale in key 3 is 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:43:56 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8
+07:43:56 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:43:56 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:43:56 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8
+07:43:56 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:43:56 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:43:56 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 3 major and their relative minors
+
+07:43:56 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 27 - scale is: 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:44:43 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8
+07:44:43 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:44:43 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:44:43 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8
+07:44:43 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:44:43 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:44:43 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 3 major and their relative minors
+
+07:44:43 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 27 - scale is: 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:44:43 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 52 - scale in key 3 is SCALAR(0x12b5db0)
+07:47:31 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8
+07:47:31 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:47:31 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:47:31 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8
+07:47:31 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:47:31 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:47:31 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 3 major and their relative minors
+
+07:47:31 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 27 - scale is: 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:47:59 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8
+07:47:59 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:47:59 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:47:59 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8
+07:47:59 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:47:59 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:47:59 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 3 major and their relative minors
+
+07:47:59 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 27 - scale is: 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:48:24 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8
+07:48:24 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:48:24 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:48:24 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8
+07:48:24 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:48:24 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:48:24 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 3 major and their relative minors
+
+07:48:24 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 27 - scale is: 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:48:24 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 52 - scale in key 3 is 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:49:10 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8
+07:49:10 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:49:10 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:49:10 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8
+07:49:10 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:49:10 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:49:10 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 3 major and their relative minors
+
+07:49:10 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 27 - scale is: 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:49:10 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 52 - scale in key 3 is 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:50:15 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8
+07:50:15 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:50:15 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:50:15 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8
+07:50:15 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:50:15 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:50:15 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 3 major and their relative minors
+
+07:50:15 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 27 - scale is: 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:50:15 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 52 - scale in key 3 is 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:50:33 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8
+07:50:33 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:50:33 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:50:33 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8
+07:50:33 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:50:33 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:50:33 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 3 major and their relative minors
+
+07:50:33 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 27 - scale is: 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:50:33 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 52 - scale in key 3 is 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:50:44 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8
+07:50:44 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:50:44 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:50:44 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8
+07:50:44 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:50:44 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:50:44 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 3 major and their relative minors
+
+07:50:44 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 27 - scale is: 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:50:44 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 52 - scale in key 3 is 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:54:02 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8
+07:54:02 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:54:02 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:54:02 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8
+07:54:02 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:54:02 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:54:02 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 3 major and their relative minors
+
+07:54:02 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 27 - scale is: 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:54:02 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 53 - scale in key 3 is 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:55:05 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8
+07:55:05 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:55:05 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:55:05 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8
+07:55:05 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:55:05 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:55:05 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 3 major and their relative minors
+
+07:55:05 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 27 - scale is: 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:55:05 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 53 - scale in key 3 is 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:55:25 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8
+07:55:25 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:55:25 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:55:25 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8
+07:55:25 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:55:25 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:55:25 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 3 major and their relative minors
+
+07:55:25 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 27 - scale is: 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:55:25 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 53 - scale in key 3 is 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:56:00 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8
+07:56:00 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:56:00 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:56:00 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8
+07:56:00 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:56:00 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:56:00 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 3 major and their relative minors
+
+07:56:00 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 27 - scale is: 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:56:00 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 53 - scale in key 3 is 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:57:00 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8
+07:57:00 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+07:57:00 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+07:57:00 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8
+07:57:00 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+07:57:00 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+07:57:00 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 62 - The possible keys are 3 major and their relative minors
+
+07:57:00 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 27 - scale is: 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+07:57:00 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 53 - scale in key 3 is 3, 5, 7, 8, 10, 12, 14, 15, 14, 12, 10, 8, 7, 5, 3
+08:42:22 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8, 11
+08:42:22 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+08:42:22 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+08:42:22 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8, 11
+08:42:22 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+08:42:22 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+08:42:22 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 83 - There are no possible keys for the given notes.
+
+08:59:28 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8, 11
+08:59:28 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+08:59:28 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+08:59:28 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8, 11
+09:00:04 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8, 11
+09:00:04 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+09:00:04 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+09:00:04 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8, 11
+09:00:04 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+09:00:04 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+09:00:04 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0har, 0mel major and their relative minors
+
+09:01:05 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8, 11
+09:01:05 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+09:01:05 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+09:01:05 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8, 11
+09:01:05 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+09:01:05 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+09:01:05 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0har major and their relative minors
+
+09:19:00 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8, 11
+09:19:00 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+09:19:00 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+09:19:00 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8, 11
+09:19:00 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+09:19:00 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+09:19:00 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0har major and their relative minors
+
+09:21:12 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8, 11
+09:21:12 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+09:21:12 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+09:21:12 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8, 11
+09:21:12 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+09:21:12 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+09:21:12 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0har major and their relative minors
+
+09:21:39 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8, 11
+09:21:39 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+09:21:39 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+09:21:39 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8, 11
+09:21:39 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+09:21:39 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+09:21:39 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0har major and their relative minors
+
+09:21:39 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 27 - scale is: 0, 2, 3, 5, 7, 8, 10, 12, 10, 8, 7, 5, 3, 2, 0
+09:21:39 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 86 - scale in key 0har is 0, 2, 3, 5, 7, 8, 10, 12, 10, 8, 7, 5, 3, 2, 0
+09:22:23 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8, 11
+09:22:23 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+09:22:23 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+09:22:23 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8, 11
+09:22:23 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+09:22:23 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+09:22:23 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0har major and their relative minors
+
+09:22:23 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 27 - scale is: 0, 2, 3, 5, 7, 8, 10, 12, 10, 8, 7, 5, 3, 2, 0
+09:22:23 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 86 - scale in key 0har is 0, 2, 3, 5, 7, 8, 10, 12, 10, 8, 7, 5, 3, 2, 0
+09:27:57 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8, 11
+09:27:57 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+09:27:57 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+09:27:57 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8, 11
+09:27:57 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+09:27:57 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+09:27:57 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0har major and their relative minors
+
+09:27:57 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 26 - scale is: 0, 2, 3, 5, 7, 8, 11, 12, 11, 8, 7, 5, 3, 2, 0
+09:27:57 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 86 - scale in key 0har is 0, 2, 3, 5, 7, 8, 11, 12, 11, 8, 7, 5, 3, 2, 0
+09:28:33 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8, 10
+09:28:33 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+09:28:33 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+09:28:33 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8, 10
+09:28:33 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+09:28:33 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+09:28:33 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 3 major and their relative minors
+
+09:28:33 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 26 - scale is: 3, 5, 6, 8, 10, 11, 13, 15, 13, 11, 10, 8, 6, 5, 3
+09:28:33 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 86 - scale in key 3 is 3, 5, 6, 8, 10, 11, 13, 15, 13, 11, 10, 8, 6, 5, 3
+09:30:00 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 8, 10
+09:30:00 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+09:30:00 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+09:30:00 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 8, 10
+09:30:00 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+09:30:00 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+09:30:00 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 3 major and their relative minors
+
+09:30:00 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 26 - scale is: 3, 5, 6, 8, 10, 11, 13, 15, 13, 11, 10, 8, 6, 5, 3
+09:30:00 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 86 - scale in key 3 is 3, 5, 6, 8, 10, 11, 13, 15, 13, 11, 10, 8, 6, 5, 3
+09:30:31 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:30:31 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+09:30:31 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+09:30:31 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:30:31 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+09:30:31 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+09:30:31 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0mel major and their relative minors
+
+09:30:31 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 26 - scale is: 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+09:30:31 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 86 - scale in key 0mel is 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+09:35:24 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:35:24 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+09:35:24 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+09:35:24 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:35:24 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+09:35:24 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+09:35:24 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0mel major and their relative minors
+
+09:35:24 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 26 - scale is: 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+09:35:34 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:35:34 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+09:35:34 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+09:35:34 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:37:51 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:37:51 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+09:37:51 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+09:37:51 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:38:21 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:38:21 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+09:38:21 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+09:38:21 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:39:27 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:39:27 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+09:39:27 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+09:39:27 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:39:53 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:39:53 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+09:39:53 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+09:39:53 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:41:55 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:41:55 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+09:41:55 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+09:41:55 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:42:32 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:42:32 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+09:42:32 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+09:42:32 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:42:56 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:42:56 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+09:42:56 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+09:42:56 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:42:56 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 180 - Found diminished chord (1, 4, 7).
+09:46:32 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:46:32 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+09:46:32 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+09:46:32 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:46:32 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 180 - Found diminished chord (1, 4, 7).
+09:46:32 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+09:46:32 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+09:46:32 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0mel major and their relative minors
+
+09:46:32 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 26 - scale is: 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+09:48:55 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:48:55 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+09:48:55 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+09:48:55 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:48:55 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 180 - Found diminished chord (1, 4, 7).
+09:48:55 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+09:48:55 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+09:48:55 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0mel major and their relative minors
+
+09:52:39 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:52:39 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+09:52:39 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+09:52:39 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:52:39 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 180 - Found diminished chord (1, 4, 7).
+09:52:39 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+09:52:39 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+09:52:39 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0mel major and their relative minors
+
+09:53:18 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:53:18 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+09:53:18 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+09:53:18 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:53:35 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:53:35 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+09:53:35 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+09:53:35 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:53:35 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 180 - Found diminished chord (1, 4, 7).
+09:53:35 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+09:53:35 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+09:53:35 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0mel major and their relative minors
+
+09:53:35 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Mode::Minor - Line 36 - 0
+09:56:54 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:56:54 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+09:56:54 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+09:56:54 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:56:54 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 180 - Found diminished chord (1, 4, 7).
+09:56:54 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+09:56:54 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+09:56:54 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0mel major and their relative minors
+
+09:56:54 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 76 - note is 0
+09:56:54 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Mode::Minor - Line 36 - 0
+09:58:22 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:58:22 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+09:58:22 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+09:58:22 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:58:22 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 180 - Found diminished chord (1, 4, 7).
+09:58:22 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+09:58:22 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+09:58:22 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0mel major and their relative minors
+
+09:58:22 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 76 - note is 0
+09:58:22 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Mode::Minor - Line 36 - 0
+09:59:22 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:59:22 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+09:59:22 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+09:59:22 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+09:59:22 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 180 - Found diminished chord (1, 4, 7).
+09:59:22 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+09:59:22 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+09:59:22 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0mel major and their relative minors
+
+09:59:22 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 76 - note is 0
+09:59:22 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Mode::Minor - Line 36 - 0
+09:59:22 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 26 - scale is: 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:00:52 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:00:52 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+10:00:52 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+10:00:52 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:00:52 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 180 - Found diminished chord (1, 4, 7).
+10:00:52 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+10:00:52 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+10:00:52 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0mel major and their relative minors
+
+10:00:52 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 76 - note is 0
+10:00:52 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Mode::Minor - Line 36 - 0
+10:00:52 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 26 - scale is: 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:00:52 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 89 - scale in key 0mel is 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:02:02 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:02:02 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+10:02:02 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+10:02:02 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:02:02 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 180 - Found diminished chord (1, 4, 7).
+10:02:02 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+10:02:02 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+10:02:02 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0mel major and their relative minors
+
+10:02:02 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 76 - note is 0
+10:02:02 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Mode::Minor - Line 36 - 0
+10:02:02 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 26 - scale is: 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:02:02 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 89 - scale in key 0mel is 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:02:02 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 90 - chord for key 0mel is ARRAY(0x1ae2618), ARRAY(0x1ae2210), ARRAY(0x1ae21c8), ARRAY(0x1ae21f8), ARRAY(0x1ae26c0), ARRAY(0x1ae2720), ARRAY(0x1ae2270)
+10:06:05 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:06:05 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+10:06:05 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+10:06:05 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:06:05 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 180 - Found diminished chord (1, 4, 7).
+10:06:05 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+10:06:05 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+10:06:05 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0mel major and their relative minors
+
+10:06:05 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 76 - note is 0
+10:06:05 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Mode::Minor - Line 36 - 0
+10:06:05 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 26 - scale is: 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:06:05 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 89 - scale in key 0mel is 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:06:05 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 90 - chord for key 0mel is ARRAY(0x12458d0)
+10:07:11 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:07:11 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+10:07:11 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+10:07:11 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:07:11 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 180 - Found diminished chord (1, 4, 7).
+10:07:11 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+10:07:11 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+10:07:11 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0mel major and their relative minors
+
+10:07:11 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 76 - note is 0
+10:07:11 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Mode::Minor - Line 36 - 0
+10:07:11 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 26 - scale is: 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:07:11 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 89 - scale in key 0mel is 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:07:11 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 90 - chord for key 0mel is 
+10:09:08 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:09:08 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+10:09:08 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+10:09:08 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:09:08 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 180 - Found diminished chord (1, 4, 7).
+10:09:08 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+10:09:08 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+10:09:08 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0mel major and their relative minors
+
+10:09:08 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 76 - note is 0
+10:09:08 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Mode::Minor - Line 36 - 0
+10:09:08 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 26 - scale is: 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:09:08 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 89 - scale in key 0mel is 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:09:08 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 90 - chord for key 0mel is 
+10:10:47 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:10:47 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+10:10:47 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+10:10:47 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:10:47 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 180 - Found diminished chord (1, 4, 7).
+10:10:47 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+10:10:47 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+10:10:47 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0mel major and their relative minors
+
+10:10:47 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 76 - note is 0
+10:10:47 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Mode::Minor - Line 36 - 0
+10:10:47 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 26 - scale is: 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:10:47 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 89 - scale in key 0mel is 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:10:47 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 90 - chord for key 0mel is 
+10:13:57 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:13:57 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+10:13:57 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+10:13:57 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:13:57 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 180 - Found diminished chord (1, 4, 7).
+10:14:56 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:14:56 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+10:14:56 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+10:14:56 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:14:56 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 180 - Found diminished chord (1, 4, 7).
+10:15:52 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:15:52 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+10:15:52 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+10:15:52 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:15:52 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 180 - Found diminished chord (1, 4, 7).
+10:15:52 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+10:15:52 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+10:15:52 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0mel major and their relative minors
+
+10:15:52 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 76 - note is 0
+10:15:52 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Mode::Minor - Line 36 - 0
+10:15:52 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 26 - scale is: 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:15:52 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 90 - scale in key 0mel is 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:16:51 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:16:51 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+10:16:51 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+10:16:51 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:16:51 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 180 - Found diminished chord (1, 4, 7).
+10:16:51 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+10:16:51 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+10:16:51 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0mel major and their relative minors
+
+10:16:51 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 76 - note is 0
+10:16:51 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Mode::Minor - Line 36 - 0
+10:16:51 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 26 - scale is: 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:16:51 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 90 - scale in key 0mel is 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:16:51 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 91 - chord for key 0mel is 0, 3, 7
+10:19:11 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:19:11 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+10:19:11 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+10:19:11 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:19:11 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 180 - Found diminished chord (1, 4, 7).
+10:19:41 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:19:41 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+10:19:41 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+10:19:41 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:19:41 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 180 - Found diminished chord (1, 4, 7).
+10:19:41 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+10:19:41 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+10:19:41 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0mel major and their relative minors
+
+10:19:41 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 76 - note is 0
+10:19:41 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Mode::Minor - Line 36 - 0
+10:19:41 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 26 - scale is: 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:19:41 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 90 - scale in key 0mel is 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:19:41 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 91 - chord for key 0mel is 0, 3, 7
+10:19:41 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 
+10:19:41 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 
+10:19:41 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 3, 7, 11
+10:19:41 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 5, 9, 12
+10:19:41 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 7, 11, 14
+10:19:41 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 9, 12, 15
+10:19:41 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 
+10:27:07 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:27:07 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+10:27:07 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+10:27:07 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:27:07 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 180 - Found diminished chord (1, 4, 7).
+10:27:07 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+10:27:07 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+10:27:07 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0mel major and their relative minors
+
+10:27:07 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 76 - note is 0
+10:27:07 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Mode::Minor - Line 36 - 0
+10:27:07 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 26 - scale is: 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:27:07 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 90 - scale in key 0mel is 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:27:07 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 91 - chord for key 0mel is 0, 3, 7
+10:27:07 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 0, 3, 7
+10:27:07 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 2, 5, 9
+10:27:07 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 3, 7, 11
+10:27:07 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 5, 9, 12
+10:27:07 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 7, 11, 14
+10:27:07 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 9, 12, 15
+10:27:07 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 
+10:34:40 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:34:40 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+10:34:40 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+10:34:40 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:34:40 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+10:34:40 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+10:34:40 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0mel major and their relative minors
+
+10:34:40 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 76 - note is 0
+10:34:40 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Mode::Minor - Line 36 - 0
+10:34:40 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 26 - scale is: 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:34:40 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 90 - scale in key 0mel is 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:34:40 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 91 - chord for key 0mel is 0, 3, 7
+10:34:40 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 0, 3, 7
+10:34:40 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 2, 5, 9
+10:34:40 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 3, 7, 11
+10:34:40 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 5, 9, 12
+10:34:40 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 7, 11, 14
+10:34:40 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 9, 12, 15
+10:34:40 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 
+10:34:42 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:34:42 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+10:34:42 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+10:34:42 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:34:42 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+10:34:42 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+10:34:42 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0mel major and their relative minors
+
+10:34:42 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 76 - note is 0
+10:34:42 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Mode::Minor - Line 36 - 0
+10:34:42 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 26 - scale is: 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:34:42 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 90 - scale in key 0mel is 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:34:42 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 91 - chord for key 0mel is 0, 3, 7
+10:34:42 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 0, 3, 7
+10:34:42 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 2, 5, 9
+10:34:42 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 3, 7, 11
+10:34:42 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 5, 9, 12
+10:34:42 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 7, 11, 14
+10:34:42 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 9, 12, 15
+10:34:42 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 
+10:39:26 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:39:26 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+10:39:26 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+10:39:26 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:39:42 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:39:42 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+10:39:42 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+10:39:42 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:39:42 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+10:39:42 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+10:39:42 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0mel major and their relative minors
+
+10:39:42 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 76 - note is 0
+10:39:42 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Mode::Minor - Line 36 - 0
+10:39:42 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 26 - scale is: 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:39:42 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 55 - chord? 0, 3, 7
+10:39:42 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 55 - chord? 2, 5, 9
+10:39:42 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 55 - chord? 3, 7, 11
+10:39:42 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 55 - chord? 5, 9, 12
+10:39:42 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 55 - chord? 7, 11, 14
+10:39:42 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 55 - chord? 9, 12, 15
+10:39:42 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 55 - chord? 
+10:39:42 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 90 - scale in key 0mel is 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:39:42 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 91 - chord for key 0mel is 0, 3, 7
+10:39:42 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 0, 3, 7
+10:39:42 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 2, 5, 9
+10:39:42 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 3, 7, 11
+10:39:42 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 5, 9, 12
+10:39:42 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 7, 11, 14
+10:39:42 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 9, 12, 15
+10:39:42 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 
+10:40:50 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:40:50 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+10:40:50 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+10:40:50 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:41:10 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:41:10 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+10:41:10 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+10:41:10 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0mel major and their relative minors
+
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 76 - note is 0
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Mode::Minor - Line 36 - 0
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 26 - scale is: 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 63 - testing 0mel
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 63 - testing 0min
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 55 - chord? 0, 3, 7
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 63 - testing 2min
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 55 - chord? 2, 5, 9
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 63 - testing 3aug
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 55 - chord? 3, 7, 11
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 63 - testing 5
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 55 - chord? 5, 9, 12
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 63 - testing 7
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 55 - chord? 7, 11, 14
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 63 - testing 9dim
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 55 - chord? 9, 12, 15
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 63 - testing 11dim
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 55 - chord? 
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 90 - scale in key 0mel is 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 91 - chord for key 0mel is 0, 3, 7
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 0, 3, 7
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 2, 5, 9
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 3, 7, 11
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 5, 9, 12
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 7, 11, 14
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 9, 12, 15
+10:41:10 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 
+10:41:55 >>> DEBUG >>> MaDAME - Line 14 - @request contains: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:41:55 >>> DEBUG >>> MaDAME::Engine - Line 23 - Class name is: MaDAME::Engine
+10:41:55 >>> DEBUG >>> MaDAME::Engine - Line 24 - Engine required is: MaDAME::Engine::MusDat
+10:41:55 >>> DEBUG >>> MaDAME::Engine - Line 25 - Data input is: KeyFinder, 0, 2, 3, 5, 7, 9, 11
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 24 - KeyFinder
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat - Line 36 - Hurray, MusDat loaded!
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::KeyFinder - Line 88 - The possible keys are 0mel major and their relative minors
+
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 76 - note is 0
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Mode::Minor - Line 36 - 0
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Scale - Line 26 - scale is: 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 63 - testing 0mel
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 63 - testing 0min
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 55 - chord? 0, 3, 7
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 63 - testing 2min
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 55 - chord? 2, 5, 9
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 63 - testing 3aug
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 55 - chord? 3, 7, 11
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 63 - testing 5
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 55 - chord? 5, 9, 12
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 63 - testing 7
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 55 - chord? 7, 11, 14
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 63 - testing 9dim
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 55 - chord? 9, 12, 15
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 63 - testing 11dim
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::CalcHandler::Chord - Line 55 - chord? 11, 14, 17
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 90 - scale in key 0mel is 0, 2, 3, 5, 7, 9, 11, 12, 10, 8, 7, 5, 3, 2, 0
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 91 - chord for key 0mel is 0, 3, 7
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 0, 3, 7
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 2, 5, 9
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 3, 7, 11
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 5, 9, 12
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 7, 11, 14
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 9, 12, 15
+10:41:55 >>> DEBUG >>> MaDAME::Engine::MusDat::GetHandler - Line 94 - chord in sequence is 11, 14, 17
