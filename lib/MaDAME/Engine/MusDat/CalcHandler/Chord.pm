@@ -32,6 +32,7 @@ sub maj7 {
 
 sub getProgression {
     my $key = $_[0];
+    debug("key = $key");
     my @progression = ();
 
     if    ($key =~ s/nat//) {
@@ -51,8 +52,8 @@ sub getProgression {
 
     for my $chord ( @progression ) {
         # replace each root note in the progression with its chord.
+        debug("Your chord is $chord");
         $chord = [ getChordNotes( $chord ) ];
-        debug("chord? " . join( ', ', @{ $chord } ));
     }
 
     return @progression;
@@ -88,60 +89,60 @@ sub getChordNotes {
 
 sub getChordsByNote {
     my ($note) = @_;
- 
+    debug("the note is $note"); 
     my @chords = (
     # root chords.
         # major chords.
-        $note . 'maj', 
+        $note, 
         $note . 'dom7',
         $note . 'maj7',
         $note . 'aug',
 
         # minor chords.
-        $note . 'm',
+        $note . 'min',
         $note . 'mdom7',
         $note . 'mmaj7',
         $note . 'dim',
 
     # note as a third
         # major chords.
-        ($note - 4) . 'maj',
-        ($note - 4) . 'dom7',
-        ($note - 4) . 'maj7',
-        ($note - 4) . 'aug',
+        (($note - 4) < 0 ? (($note - 4) + 12) : $note - 4),
+        (($note - 4) < 0 ? (($note - 4) + 12) : $note - 4) . 'dom7',
+        (($note - 4) < 0 ? (($note - 4) + 12) : $note - 4) . 'maj7',
+        (($note - 4) < 0 ? (($note - 4) + 12) : $note - 4) . 'aug',
 
         # minor chords.
-        ($note - 3) . 'm',
-        ($note - 3) . 'mdom7',
-        ($note - 3) . 'mmaj7',
-        ($note - 3) . 'dim',
+        (($note - 3) < 0 ? (($note - 3) + 12) : $note - 3) . 'min',
+        (($note - 3) < 0 ? (($note - 3) + 12) : $note - 3) . 'mdom7',
+        (($note - 3) < 0 ? (($note - 3) + 12) : $note - 3) . 'mmaj7',
+        (($note - 3) < 0 ? (($note - 3) + 12) : $note - 3) . 'dim',
 
     # note as a fifth
         # major chords.
-        ($note - 7) . 'maj',
-        ($note - 7) . 'dom7',
-        ($note - 7) . 'maj7',
-        ($note - 8) . 'aug',
+        (($note - 7) < 0 ? (($note - 7) + 12) : $note - 7),
+        (($note - 7) < 0 ? (($note - 7) + 12) : $note - 7) . 'dom7',
+        (($note - 7) < 0 ? (($note - 7) + 12) : $note - 7) . 'maj7',
+        (($note - 8) < 0 ? (($note - 8) + 12) : $note - 8) . 'aug',
 
         # minor chords.
-        ($note - 7) . 'm',
-        ($note - 7) . 'mdom7',
-        ($note - 7) . 'mmaj7',
-        ($note - 6) . 'dim',
+        (($note - 7) < 0 ? (($note - 7) + 12) : $note - 7) . 'min',
+        (($note - 7) < 0 ? (($note - 7) + 12) : $note - 7) . 'mdom7',
+        (($note - 7) < 0 ? (($note - 7) + 12) : $note - 7) . 'mmaj7',
+        (($note - 6) < 0 ? (($note - 6) + 12) : $note - 6) . 'dim',
 
     # note as a dominant 7th
-        ($note - 10) . 'dom7',
-        ($note - 10) . 'mdom7',
+        (($note - 10) < 0 ? (($note - 10) + 12) : $note - 10) . 'dom7',
+        (($note - 10) < 0 ? (($note - 10) + 12) : $note - 10) . 'mdom7',
 
     # note as a major 7th
-        ($note - 11) . 'maj7',
-        ($note - 11) . 'mmaj7',
+        (($note - 11) < 0 ? (($note - 11) + 12) : $note - 11) . 'maj7',
+        (($note - 11) < 0 ? (($note - 11) + 12) : $note - 11) . 'mmaj7',
     );
 
     my @fullchords = ();
 
     foreach my $root (@chords) {
-        push(@fullchords, getChordNotes($root));
+        push(@fullchords, [getChordNotes($root)]);
     }
 
     return @fullchords;
@@ -154,6 +155,7 @@ sub getKeysByChord {
     # melodic  - min min aug maj maj dim dim
 
     my @chord = @_;
+    debug("\@chord = " . join(', ', @chord));
     my @positions = ();
     my @keys = ();
 
@@ -163,25 +165,25 @@ sub getKeysByChord {
             # Major 3rd followed by Minor 3rd. Major Chord.
             debug( "Found major chord (" . join(', ', @chord) . ")." );
 
-            push( @positions, [\(0, 3, 4), \(2, 5, 6), \(4, 5), \(3, 4)] );
+            push( @positions, ([0, 3, 4], [2, 5, 6], [4, 5], [3, 4]) );
         }
         elsif( $chord[0] == $chord[1] - 3 && $chord[1] == $chord[2] - 4 ) {
             # Minor 3rd followed by Major 3rd. Minor Chord.
             debug( "Found minor chord (" . join(', ', @chord) . ")." );
 
-            push( @positions, [\(1, 2, 5), \(0, 3, 4), \(0, 3), \(0, 1)] );
+            push( @positions, ([1, 2, 5], [0, 3, 4], [0, 3], [0, 1]) );
         }
         elsif( $chord[0] == $chord[1] - 4 && $chord[1] == $chord[2] - 4 ) {
             # Two Major 3rd intervals. Augmented Chord.
             debug( "Found augmented chord (" . join(', ', @chord) . ")." );
 
-            push( @positions, [\( ), \( ), \(2), \(2)] );
+            push( @positions, ([], [], [2], [2]) );
         }
         elsif( $chord[0] == $chord[1] - 3 && $chord[1] == $chord[2] - 3 ) {
             # Two Minor 3rd intervals. Diminished Chord.
             debug( "Found diminished chord (" . join(', ', @chord) . ")." );
 
-            push( @positions, [\(6), \(1), \(1, 6), \(5, 6)] );
+            push( @positions, ([6], [1], [1, 6], [5, 6]) );
         }
         else {
             # Unknown.
@@ -201,15 +203,17 @@ sub getKeysByChord {
             # Subract the root note of the chord by the number of the position to get the key
             
             my $key  = $chord[0] - $position;
-            $key .= 'min' if ( $i == 1 );
-            $key .= 'har' if ( $i == 2 );
-            $key .= 'mel' if ( $i == 3 );
+            $key += 12    if ( $key < 0 );
+            $key .= 'min' if ( $i  == 1 );
+            $key .= 'har' if ( $i  == 2 );
+            $key .= 'mel' if ( $i  == 3 );
 
             push( @keys, $key );
         }
     }
 
     return @keys;
+
 }
 
 #my @notes = (1, 4, 7);

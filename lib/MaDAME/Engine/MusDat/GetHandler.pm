@@ -66,8 +66,16 @@ sub keyFinder {
     my @keys = &MaDAME::Engine::MusDat::CalcHandler::KeyFinder::getKey(@notes);
        
     for my $key (@keys) {
-        my $tmp = $key;
-        $key =~ /^(\d+)(har|mel)$/;
+        $key = keyInfo($key);
+    }
+    return @keys;
+}
+
+sub keyInfo {
+    my $key = $_[0];
+
+    my $tmp = $key;
+        $key =~ /^(\d+)(har|mel|nat)$/;
         my $mode = $2 || '';
         my $note = $1;
 
@@ -82,35 +90,53 @@ sub keyFinder {
         $key = {
                    name          => $tmp,
                    relative      => $rel,
-		   scale         => [&MaDAME::Engine::MusDat::CalcHandler::Scale::findScale($tmp)],
+                   scale         => [&MaDAME::Engine::MusDat::CalcHandler::Scale::findScale($tmp)],
                    chord         => [&MaDAME::Engine::MusDat::CalcHandler::Chord::getChordNotes($tmp)],
                    progression   => [&MaDAME::Engine::MusDat::CalcHandler::Chord::getProgression($tmp)],
-                   
-        };     
+
+        };
         debug("scale in key $tmp is " .  join(', ', @{ $key->{scale} }) );
         debug("chord for key $tmp is " . join(', ', @{ $key->{chord} }) );
         my $progression;
         foreach(@{$key->{progression}}) {
             debug("chord in sequence is " . join(', ', @{ $_ }));
         }
-    }
-    return @keys;
-}
-
-sub keyInfo {
-
+    return $key;
 }
 
 sub chordWithKey {
+    my $tmpchord = $_[0];
+    debug("tmpchord = $tmpchord");
+    my @chord = &MaDAME::Engine::MusDat::CalcHandler::Chord::getChordNotes($tmpchord);
+    debug("chord: " . join(', ', @chord));
+    my @keys = &MaDAME::Engine::MusDat::CalcHandler::Chord::getKeysByChord(@chord);
+    debug('@keys size: ' . scalar(@keys));
 
+    for my $key (@keys) {
+        debug("\$key = $key");
+        my $tmp = $key;
+        $key = {
+                name => $tmp,
+                progression => [&MaDAME::Engine::MusDat::CalcHandler::Chord::getProgression($tmp)],
+        };
+    }
+    
+    return @keys;     
 }
 
 sub chordWithNote {
+    my $note = $_[0];
+    debug("This chord is $note");
+    my @chords = &MaDAME::Engine::MusDat::CalcHandler::Chord::getChordsByNote($note);
 
+    return @chords;
 }
 
 sub scaleInfo {
+    my $key = $_[0];
+    my @scale = &MaDAME::Engine::MusDat::CalcHandler::Scale::findScale($key);
 
+    return @scale;
 }
 # Execute instructions.
 
