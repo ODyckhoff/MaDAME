@@ -10,3 +10,10 @@ Ideally, this should be a musical aid, and not a full composition engine, so the
 For me, the main challenge (and fun) will exist in deriving these calculations necessary to map appropriate notes and chords to the given input, and in generating short melodies. As a musician and computer scientist, the idea of working on a project such as this is rather exciting.
 
 My current thoughts are to implement the software as an API, and plug in a web front end to display the data. I'll have to do some research on digital formats of sheet music to see if there's a set of standards, and if so, I shall endeavour to provide data which fits these standards so that others in future my also use the API.
+
+KeyFinder
+=========
+
+The Key finder takes a series of numbers as input, where each number represents a note in a scale. 0 = A, 1 = A#/Bb, 2 = B, etc. through to 11 = G#/Ab. You may invoke it thusly:
+
+    `perl MaDAME.pm MusDat KeyFinder 0 2 4 5 7 9 11`
