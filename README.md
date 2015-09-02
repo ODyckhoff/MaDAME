@@ -16,4 +16,4 @@ KeyFinder
 
 The Key finder takes a series of numbers as input, where each number represents a note in a scale. 0 = A, 1 = A#/Bb, 2 = B, etc. through to 11 = G#/Ab. You may invoke it thusly:
 
-    `perl MaDAME.pm MusDat KeyFinder 0 2 4 5 7 9 11`
+    perl MaDAME.pm MusDat KeyFinder 0 2 4 5 7 9 11
